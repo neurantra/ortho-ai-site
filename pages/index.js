@@ -1,9 +1,9 @@
 
 export default function Home() {
   return (
-    <main style={{ padding: '2rem', fontFamily: 'Arial' }}>
-      <h1>Welcome to Ortho AI Clinic</h1>
-      <p>This is a basic prototype website for an AI-driven orthopedic practice assistant.</p>
-    </main>
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
+      <h1 className="text-4xl font-bold text-green-600">Tailwind is working!</h1>
+      <p className="mt-4 text-lg text-gray-700">Let’s build Ortho AI Clinic together!</p>
+    </div>
   );
 }
